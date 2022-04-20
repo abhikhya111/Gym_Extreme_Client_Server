@@ -1,0 +1,125 @@
+img{
+ 
+    top:300px;
+}
+
+.new{
+    background-color: blue;
+    background-image: url('https://www.gamehox.com/assets/frontend/images/NewGames.png');
+    height: 200px;
+}
+
+.new-games{
+    width: 55px;
+    height: 33px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-ul{
+    list-style-type: none;
+}
+
+.tips1{
+    width:200px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    width: 55px;
+}
+
+.tips1:hover{
+    background-color: #fd7a0e;
+    height:70px;
+
+}
+
+.tag{
+    inline-size: min-content;
+    white-space: nowrap;
+    justify-content: center;
+    background-color: #001b73;
+    height:34px;
+    line-height: 34px;
+    font-size: 14px;
+    border:solid 3px #007bff;
+    border-radius: 30px;
+    margin:"10px";
+    padding:0 22px 0 22px;
+    font-weight: 600;
+    margin-left:25px;
+
+
+
+
+}
+.tag1{
+    display: flex;
+    color: #00DD7C;
+    
+
+}
+
+.tag2{
+    
+    color: #FFC01B;
+}
+
+.tag3{
+    color: #E25151;
+
+}
+.tag4, .tag10{
+    
+    color: #C75AFD;
+}
+
+.tag5,.tag11{
+    color: #00D0FD;
+}
+
+.tag6{
+    color: #FD2E9E;
+}
+
+.tag7{
+    color: #00DD7C;
+}
+
+.tag8{
+    
+    color: #FFC01B;
+}
+
+.tag9{
+    color: #E25151;
+}
+
+.tag12{
+    color: #FD2E9E;
+}
+
+.tag13{
+    color: #00DD7C;
+}
+
+.tag14{
+    color: #FFC01B
+}
+
+.actionIcon{
+    padding-right:10px;
+    
+}
+
+.flex-box{
+    display: flex;
+}
+
+.main-data{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+}
