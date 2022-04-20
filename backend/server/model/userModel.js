@@ -3,7 +3,7 @@
 var userSchema = new mongoose.Schema({
       name: {
         type: String,
-        required: true
+        // required: true
       },
       email: {
         type: String,
@@ -15,7 +15,7 @@ var userSchema = new mongoose.Schema({
       },
       permission: {
         type: Number,
-        required: true
+        // required: true
       }
 
 });

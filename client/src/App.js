@@ -1,15 +1,28 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar"
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import images from "./images";
-import ImageSlider from "./ImageSlider";
+import Login from './Login';
+import React, { useState } from 'react';
 import CarouselComponent from "./components/carousel.component";
 import Multicarousel from './components/multicarousel';
-import { Nav } from 'react-bootstrap';
+
+function setToken(userToken) {
+  sessionStorage.setItem('token', JSON.stringify(userToken));
+
+}
+
+function getToken() {
+  const tokenString = sessionStorage.getItem('token');
+  const userToken = JSON.parse(tokenString);
+  return userToken?.token
+}
 
 function App() {
+  const token = getToken();
+
+  if(!token) {
+    return <Login setToken={setToken} />
+  }
   return (<>
  
     <Navbar/>
